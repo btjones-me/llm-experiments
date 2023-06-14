@@ -3,7 +3,7 @@
 import pytest
 from assertpy import assert_that
 
-from llm_experiments.llm_experiments import main
+from llm_experiments.deep_learning_ai.experiments.classification_01 import main
 
 
 @pytest.fixture

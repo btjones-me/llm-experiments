@@ -39,6 +39,11 @@ default = true
 # Do not manually edit, use poetry add/remove (--dev) to manage dependencies
 [tool.poetry.dependencies]
 python = "^3.10"
+openai = "^0.27.7"
+tiktoken = "^0.4.0"
+python-dotenv = "^1.0.0"
+pandas = "^2.0.2"
+numpy = "^1.24.3"
 
 [tool.poetry.dev-dependencies]
 assertpy = "*"
