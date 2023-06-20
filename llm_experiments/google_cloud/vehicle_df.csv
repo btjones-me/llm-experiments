@@ -1,0 +1,126 @@
+enquiry_id,make,generic_model,derivative,vehicle_colour,engine_size,fuel,transmission,age_at_enquiry_dec,mileage,reserve_price,has_damage,is_vehicle_on_finance,service_count,number_of_doors,number_of_seats,vehicle_class,body_category,body,previous_keepers,equipment,additional_spec,service_history
+3522910,Peugeot,3008,GT LINE S S,Red,1200.0,Petrol,Manual,4.58,48527,13449,1,True,2,5.0,5.0,Car,Other,Other,1,"sat_nav, parking_cam",None,partial
+3363747,Toyota,YARIS,EDITION VVT I,White,998.0,Petrol,Manual,9.58,71000,3857,1,True,7,5.0,5.0,Car,Hatchback,Hatchback,2,,None,partial
+6583338,SEAT,ATECA,FR SPORT TSI EVO,Black,1498.0,Petrol,Manual,3.58,20967,18553,1,True,0,5.0,5.0,Car,Other,Other,1,"sat_nav, heated_seats, parking_cam",None,partial
+6585437,BMW,1 SERIES,118D SE,Silver,1995.0,Diesel,Manual,10.92,75000,4509,1,True,0,5.0,5.0,Car,Hatchback,Hatchback,2,,None,full
+6625875,Mercedes,A CLASS,A 180 D SE EXECUTIVE AUTO,Black,1461.0,Diesel,Automatic,6.67,47602,11362,1,True,0,5.0,5.0,Car,Hatchback,Hatchback,4,"sat_nav, heated_seats, parking_cam",None,no
+6719154,Toyota,AYGO,VVT I,Grey,998.0,Petrol,Manual,15.75,35500,1863,1,False,0,5.0,5.0,Car,Hatchback,Hatchback,2,,None,partial
+6732385,Skoda,FABIA,SE TSI,Silver,1197.0,Petrol,Manual,6.58,74150,5578,1,False,5,5.0,5.0,Car,Hatchback,Hatchback,2,,Apple car play. ,full
+6668945,Toyota,YARIS,ICON TECH VVT I HEV CVT,Blue,1497.0,Hybrid,CVT,5.0,37000,11107,1,False,4,5.0,5.0,Car,Hatchback,Hatchback,0,"sat_nav, parking_cam",None,full
+6010715,Nissan,NAVARA,TEKNA DCI AUTO,Black,2488.0,Diesel,Automatic,8.0,99800,7751,1,False,4,5.0,5.0,LCV,Commercial vehicle,Pick-up,2,"sat_nav, heated_seats, parking_cam",None,partial
+6337259,SEAT,LEON,FR TECHNOLOGY TDI,Black,1968.0,Diesel,Manual,8.0,63000,7963,1,False,6,3.0,5.0,Car,Hatchback,Hatchback,3,sat_nav,None,partial
+6682485,Vauxhall,CORSA,E SE NAV PREMIUM,Grey,0.0,Electric,Automatic,2.25,16060,11416,1,False,2,5.0,5.0,Car,Hatchback,Hatchback,1,"sat_nav, parking_cam",Seller confirmed it an automatic,full
+6005364,Vauxhall,CORSA,ACTIVE AC,Green,1398.0,Petrol,Manual,10.58,46000,3038,1,False,0,5.0,5.0,Car,Hatchback,Hatchback,1,parking_cam,HPI & Vcheck clear,partial
+6706065,Vauxhall,CORSA,ENERGY AC ECOFLEX,Silver,1398.0,Petrol,Manual,6.25,56000,5885,1,False,4,3.0,5.0,Car,Hatchback,Hatchback,0,"sat_nav, heated_seats",None,partial
+6580686,Vauxhall,ASTRA,EXCLUSIV 98,Grey,1398.0,Petrol,Manual,10.42,98000,801,1,False,10,5.0,5.0,Car,Hatchback,Hatchback,2,,None,partial
+6322595,Audi,A3,S LINE SP EDTN TDI 168,White,1968.0,Diesel,Manual,13.0,131400,2852,1,False,5,5.0,5.0,Car,Hatchback,Hatchback,5,,None,partial
+6567799,Audi,A5,S LINE BLACK EDITION TDI A,Blue,1968.0,Diesel,Automatic,6.67,69000,13781,1,False,7,5.0,5.0,Car,Coupe,Coupe,2,"sat_nav, heated_seats, sound_system",None,full
+6680449,Audi,A5,S LINE TDI,Red,2698.0,Diesel,CVT,14.0,116000,3069,1,False,5,2.0,4.0,Car,Coupe,Coupe,3,"sat_nav, heated_seats, sound_system","Daytime running lights, Audi mobile phone, Electric seats, Parking sensors",partial
+6273506,Audi,S3,BLACK ED TFSI QUATTRO,White,1984.0,Petrol,Semi-automatic,4.08,43800,24480,1,False,4,5.0,5.0,Car,Hatchback,Hatchback,3,"sat_nav, heated_seats, parking_cam, sound_system","Parking sensors, cruise control.",full
+6625692,Audi,A3,E TRON,White,1395.0,Hybrid,Semi-automatic,6.08,86430,11250,1,False,2,5.0,5.0,Car,Hatchback,Hatchback,3,"sat_nav, heated_seats",None,partial
+4981687,Land Rover,RANGE ROVER,RROVER SPORT A BIO DYN SDV6 A,Black,2993.0,Diesel,Automatic,4.67,32000,48350,1,True,4,5.0,5.0,Car,Other,Other,1,"sat_nav, panoramic_roof, heated_seats, parking_cam, sound_system","Electric Deployable Towbar,360 Camera,TV in the rear, TV tuner in front,fridge,wireless headphones",full
+6565700,Mercedes,GLA CLASS,GLA 200 AMG LINE EDITION A,Grey,1595.0,Petrol,Automatic,3.17,23360,23877,1,True,0,5.0,5.0,Car,Other,Other,0,"sat_nav, panoramic_roof, parking_cam, heated_seats","Black wheels/alloys .
+No modifications - standard features .
+With parcel shelf .
+",full
+4967303,Audi,A3,E TRON 40 S A,Grey,1395.0,Hybrid,Semi-automatic,2.33,26244,17657,1,True,1,5.0,5.0,Car,Hatchback,Hatchback,1,"sat_nav, heated_seats, sound_system",None,full
+6727555,BMW,X1,XDRIVE 20D M SPORT AUTO,White,1995.0,Diesel,Automatic,7.0,41000,15920,1,True,0,5.0,5.0,Car,Other,Other,2,"sat_nav, heated_seats, parking_cam","parking sensors, USB ports",partial
+5637814,Mercedes,GLA CLASS,GLA 180 URBAN EDITION,Red,1595.0,Petrol,Manual,3.92,36600,17138,1,True,0,5.0,5.0,Car,Other,Other,1,"sat_nav, parking_cam",Apple carplay.,partial
+6293065,MINI,COOPER,COOPER S E ALL4,Grey,1499.0,Hybrid,Automatic,4.17,53900,15250,1,True,0,5.0,5.0,Car,Other,Other,1,sat_nav,Dog guard,partial
+6655806,Kia,PICANTO,CHILLI ISG,White,1248.0,Petrol,Manual,7.75,40710,5459,1,False,0,3.0,5.0,Car,Hatchback,Hatchback,2,"parking_cam, sat_nav",None,partial
+6539584,Skoda,ENYAQ,ENYAQ IV 80X SPORTLINE,Blue,0.0,Electric,Automatic,1.42,10500,36220,1,False,0,5.0,5.0,Car,Other,Other,0,"sat_nav, heated_seats, parking_cam, sound_system",None,not_applicable
+6632828,Kia,SPORTAGE,,Black,1685.0,Diesel,Manual,4.92,63200,10699,1,False,5,5.0,5.0,Car,Other,Other,1,"parking_cam, sat_nav",None,partial
+2232951,Vauxhall,GRANDLAND,X ELITE NAV TURBO SS,Red,1199.0,Petrol,Manual,3.25,37313,14417,1,False,0,5.0,5.0,Car,Other,Other,0,"sat_nav, panoramic_roof, heated_seats","Cooling/heated seats, heated steering wheel, heated front windscreen.",full
+6526215,Audi,A6,S LINE BLACK EDIT TDI QUT,White,2967.0,Diesel,Automatic,9.83,83000,9885,0,False,0,4.0,5.0,Car,Saloon,Saloon,7,"sat_nav, heated_seats, sound_system",None,no
+5999137,Audi,A4,S LINE BLACK EDT TDI QUAT A,White,2967.0,Diesel,Automatic,8.42,41817,14853,1,False,3,4.0,5.0,Car,Saloon,Saloon,1,"sat_nav, heated_seats","Electric seats, 
+parking assist, 
+driving assist, 
+wifi, 
+cruise control, 
+Sports mode, 
+technology pack, 
+adaptive lights, 
+auto exterior mirrors, 
+leather arm rests rear and front, 
+body care package.
+",partial
+5917317,Land Rover,RANGE ROVER,VOGUE TDV8 A,Black,4367.0,Diesel,Automatic,11.75,99470,7890,1,True,0,5.0,5.0,Car,Other,Other,4,"sat_nav, panoramic_roof, heated_seats, parking_cam, sound_system",None,partial
+6203533,Renault,ARKANA,ARKANA S EDITION E TECH HEV A,Blue,1598.0,Hybrid,Automatic,1.33,11000,22100,0,True,0,5.0,5.0,Car,Other,Other,0,"sat_nav, parking_cam",None,full
+6488824,Audi,Q7,S LINE TDI QUATTRO,Black,2967.0,Diesel,Automatic,9.42,113000,9974,1,True,0,5.0,7.0,Car,Other,Other,1,"parking_cam, sat_nav, heated_seats",None,no
+5114977,Audi,S3,QUATTRO S A,Grey,1984.0,Petrol,Semi-automatic,8.17,69325,14060,1,True,2,2.0,4.0,Car,Convertible,Convertible,2,"sat_nav, heated_seats, sound_system",None,partial
+6742461,Audi,A4,S LINE 35 TDI MHEV S A,Grey,1968.0,Diesel,Semi-automatic,1.58,20201,25483,1,True,1,4.0,5.0,Car,Saloon,Saloon,2,"sat_nav, heated_seats, parking_cam, sound_system",None,full
+1677184,BMW,M1,40I AUTO,Blue,2998.0,Petrol,Automatic,5.08,64350,14265,1,True,5,3.0,5.0,Car,Hatchback,Hatchback,3,"sat_nav, heated_seats, sound_system","Comfort Pack,
+Professional Pack,
+Rear Privacy Glass. ",partial
+2892533,BMW,2 SERIES,218D SPORT,White,1995.0,Diesel,Manual,1.08,22662,21321,1,True,0,4.0,5.0,Car,Coupe,Coupe,0,sat_nav,Front and rear parking sensors ,full
+6615597,BMW,7 SERIES,740LD XDRIVE M SPORT,Black,2993.0,Diesel,Automatic,6.67,82000,21171,1,True,0,4.0,5.0,Car,Saloon,Saloon,4,"sat_nav, heated_seats, parking_cam, sound_system","Heated steering wheel, Massage front and back, Rear entertainment system, Front and rear dash cam, Blinds on windows, Tablet for control in rear, One display key.",full
+6577484,Volkswagen,GOLF,R LINE EDITION TSI EVO,Black,1498.0,Petrol,Manual,3.17,31071,18000,1,True,0,5.0,5.0,Car,Hatchback,Hatchback,1,"sat_nav, heated_seats",None,full
+3439652,Volvo,V40,R DESIGN D4,Blue,1969.0,Diesel,Manual,5.25,80000,8482,1,True,4,5.0,5.0,Car,Hatchback,Hatchback,1,"sat_nav, heated_seats","Cruise control,Lane Assist, Parking Sensors, Collosion Assist",partial
+6750567,Land Rover,RANGE ROVER,VOGUE SE TDV6 AUTO,White,2993.0,Diesel,Automatic,6.25,42250,31396,1,False,0,5.0,5.0,Car,Other,Other,0,"sat_nav, panoramic_roof, heated_seats, parking_cam",Rear Mud Flaps ,full
+4704270,Land Rover,DEFENDER,90 ADVENTURE TD,White,2198.0,Diesel,Manual,6.83,13000,45000,1,False,3,3.0,4.0,LCV,Van,Van with side windows,1,"sat_nav, heated_seats, parking_cam, sound_system","light bar on the front,
+reversing camera,
+full sound proofing,
+anti removable devices,
+memo removable steering wheel.
+",full
+6062743,Land Rover,RANGE ROVER,VELAR ED D MHEV,Grey,1998.0,Diesel,Automatic,0.92,6500,49428,0,False,0,5.0,5.0,Car,Other,Other,0,"sat_nav, panoramic_roof, heated_seats, parking_cam",None,not_applicable
+6598470,Peugeot,3008,ALLURE E HDI,Red,1560.0,Diesel,Semi-automatic,8.5,85595,4855,1,False,6,5.0,5.0,Car,Other,Other,2,"sat_nav, panoramic_roof, parking_cam",Roof bars included,partial
+6625649,Peugeot,208,SIGNATURE BLUEHDI S S,Grey,1498.0,Diesel,Manual,3.67,35500,7912,1,False,0,5.0,5.0,Car,Hatchback,Hatchback,1,sat_nav,None,partial
+1905565,Peugeot,108,ALLURE,Red,1200.0,Petrol,Manual,5.67,73233,4238,1,False,4,5.0,4.0,Car,Hatchback,Hatchback,3,parking_cam,None,partial
+6710145,Vauxhall,AGILA,DESIGN,Blue,1242.0,Petrol,Manual,13.75,91600,936,1,False,6,5.0,5.0,Car,Hatchback,Hatchback,2,,None,partial
+6513506,Audi,A6,ALLROAD SPORT TDI QUATTRO A,Black,2967.0,Diesel,Automatic,7.5,77745,17123,1,False,0,5.0,5.0,Car,Estate,Estate,4,"sat_nav, heated_seats","Upgraded seats, ProNav. ",partial
+6070868,Audi,A5,S LINE BLK ED TDI QUAT SA,White,1968.0,Diesel,Semi-automatic,7.67,69082,12837,1,False,6,5.0,5.0,Car,Coupe,Coupe,2,"sound_system, parking_cam, panoramic_roof, sat_nav, heated_seats",None,full
+6572524,Audi,A5,S LINE 40 TDI S A,Grey,1968.0,Diesel,Semi-automatic,2.92,27000,22199,1,False,3,2.0,4.0,Car,Coupe,Coupe,1,"sat_nav, heated_seats","Parking sensors, Apple car play, Virtual cockpit, Ghost immobiliser, Dashcam, Audi downlights on wingmirrors",full
+6584442,BMW,1 SERIES,116D SPORT,Bronze,1995.0,Diesel,Manual,9.17,58000,5699,1,False,2,3.0,5.0,Car,Hatchback,Hatchback,1,heated_seats,None,partial
+6229720,BMW,1 SERIES,118I SPORT,Black,1499.0,Petrol,Manual,3.08,15658,19500,1,False,2,5.0,5.0,Car,Hatchback,Hatchback,1,sat_nav,None,full
+6661152,BMW,X3,XDRIVE 20D SE AUTO,Black,1995.0,Diesel,Automatic,10.0,87000,7751,1,False,6,5.0,5.0,Car,Other,Other,1,heated_seats,None,partial
+6262656,Audi,A1,SPORT TDI,White,1598.0,Diesel,Manual,10.83,100996,3139,1,False,1,5.0,5.0,Car,Hatchback,Hatchback,3,,None,partial
+5195460,BMW,1 SERIES,120D M SPORT,Blue,1995.0,Diesel,Manual,11.33,72400,4200,1,False,0,2.0,4.0,Car,Coupe,Coupe,4,,None,partial
+6650105,Mercedes,E CLASS,E220 AMG LINE BLUETEC AUT,White,2143.0,Diesel,Automatic,8.08,50000,10637,1,False,0,2.0,4.0,Car,Coupe,Coupe,2,"sat_nav, panoramic_roof, heated_seats, parking_cam",None,no
+5439255,Mercedes,AMG CLASS,AMG E 63 S PREMIUM 4MATIC A,Black,3982.0,Petrol,Automatic,5.5,52701,41734,1,False,5,4.0,5.0,Car,Saloon,Saloon,1,"sat_nav, panoramic_roof, heated_seats, parking_cam, sound_system","heads of display, sporty seats.",full
+3113528,Ford,FOCUS,TITANIUM,Black,999.0,Petrol,Manual,6.0,44000,7170,1,False,0,5.0,5.0,Car,Hatchback,Hatchback,1,sat_nav,Parcel shelf is with car ,full
+6569873,Ford,FIESTA,ZETEC,Red,1242.0,Petrol,Manual,7.83,37000,6049,1,False,0,3.0,5.0,Car,Hatchback,Hatchback,2,,None,no
+5756762,Ford,FIESTA,ZETEC TDCI,Grey,1499.0,Diesel,Manual,6.83,68029,4821,1,False,0,5.0,5.0,Car,Hatchback,Hatchback,1,sat_nav,None,partial
+5554485,Volkswagen,GOLF,GT BLUEMOTION TECH TDI,Black,1968.0,Diesel,Manual,7.58,55650,9241,1,False,0,3.0,5.0,Car,Hatchback,Hatchback,1,sat_nav,None,partial
+6612515,Volvo,XC90,MOMENTUM B5 MHEV AWD,Blue,1969.0,Hybrid,Automatic,1.5,26800,36543,1,False,1,5.0,7.0,Car,Other,Other,1,"sat_nav, heated_seats, parking_cam, sound_system",Tilt and slide sunroof ,full
+6345136,Fiat,500,POP STAR,Pink,1242.0,Petrol,Manual,7.25,72000,4497,1,False,4,3.0,4.0,Car,Hatchback,Hatchback,1,,None,partial
+6200208,BMW,4 SERIES,430D M SPORT AUTO,Grey,2993.0,Diesel,Automatic,4.42,26500,21640,1,False,0,2.0,4.0,Car,Coupe,Coupe,1,"sat_nav, heated_seats, sound_system",Upgraded alloys.,no
+4339300,BMW,X4,XDRIVE 20D M SPORT,Red,1995.0,Diesel,Automatic,6.42,109000,12923,1,True,1,5.0,5.0,Car,Other,Other,1,"sat_nav, heated_seats, parking_cam",None,partial
+4053897,Mercedes,CITAN,109 CDI,White,1461.0,Diesel,Manual,6.92,105000,3857,1,False,0,3.0,2.0,LCV,Commercial vehicle,Panel van,3,,Roof racks being sold with the car. ,no
+6603092,Audi,Q3,SE TDI QUATTRO S A,Black,1968.0,Diesel,Semi-automatic,11.42,88000,6827,1,False,0,5.0,5.0,Car,Other,Other,5,"sat_nav, heated_seats",protective cover for the boot,partial
+6332612,BMW,2 SERIES,220D SPORT AUTO,Blue,1995.0,Diesel,Automatic,6.17,44000,10935,1,False,1,2.0,4.0,Car,Convertible,Convertible,1,"sat_nav, heated_seats",None,partial
+4320173,BMW,X5,SE 7S 3 0D,Silver,2497.0,Diesel,Automatic,15.42,67149,5117,1,False,0,5.0,7.0,Car,Other,Other,3,"sat_nav, heated_seats",None,partial
+6589151,BMW,1 SERIES,118D ES,Black,1995.0,Diesel,Manual,16.17,128000,942,1,False,5,5.0,5.0,Car,Hatchback,Hatchback,2,,None,partial
+890888,BMW,X1,XDRIVE 20D SE AUTO,White,1995.0,Diesel,Automatic,8.5,85000,5924,1,False,0,5.0,5.0,Car,Other,Other,0,,None,partial
+1707350,Mercedes,C CLASS,C200 SPORT AUTO,Silver,1991.0,Petrol,Automatic,6.33,72600,11350,1,False,0,4.0,5.0,Car,Saloon,Saloon,2,"sat_nav, heated_seats, parking_cam","Parking sensors, review camera",full
+6372190,Mercedes,C CLASS,C350 SPORT E AUTO,Grey,1991.0,Hybrid,Automatic,6.08,94000,11075,1,False,5,4.0,5.0,Car,Saloon,Saloon,2,"sat_nav, heated_seats, parking_cam",None,partial
+5474582,Ford,FIESTA,TITANIUM X TURBO,Grey,998.0,Petrol,Automatic,4.83,25150,13301,1,False,5,5.0,5.0,Car,Hatchback,Hatchback,1,"sat_nav, heated_seats, parking_cam, sound_system",None,full
+1712977,Volkswagen,PASSAT,GTE ADVANCE S A,White,1395.0,Hybrid,Semi-automatic,4.08,69000,15880,1,False,5,5.0,5.0,Car,Estate,Estate,1,"panoramic_roof, heated_seats, parking_cam, sat_nav",None,partial
+6631894,Volvo,V40,R DESIGN NAV D2,Grey,1969.0,Diesel,Manual,7.42,86000,6831,1,False,7,5.0,5.0,Car,Hatchback,Hatchback,2,sat_nav,None,partial
+6733647,Volvo,V40,R DESIGN LUX NAV D4,Black,1969.0,Diesel,Manual,7.75,71000,8685,1,False,0,5.0,5.0,Car,Hatchback,Hatchback,2,"sat_nav, heated_seats, sound_system",Adaptive Cruise Control,partial
+6677611,Land Rover,DISCOVERY,SPORT R DYNAMIC HSE,Black,1999.0,Diesel,Automatic,3.25,21000,39895,1,True,1,5.0,7.0,Car,Other,Other,2,"sat_nav, panoramic_roof, heated_seats, parking_cam, sound_system",None,partial
+6485951,Vauxhall,ADAM,JAM,Red,1229.0,Petrol,Manual,8.33,60000,4000,1,False,0,3.0,4.0,Car,Hatchback,Hatchback,2,,None,no
+5166299,Mercedes,C CLASS,C250 AMG SPORT CDI BLUE CY,Blue,2143.0,Diesel,Automatic,9.08,70000,7500,1,False,7,4.0,5.0,Car,Saloon,Saloon,1,"sat_nav, heated_seats","Digital climate control,
+Parking assist/ guidance,
+Cruise control. ",partial
+6252168,Mazda,3,TS2,Blue,1598.0,Petrol,Manual,11.0,75000,2250,1,False,0,5.0,5.0,Car,Hatchback,Hatchback,1,,None,no
+5041407,BMW,3 SERIES,335I SE AUTO,Black,2979.0,Petrol,Automatic,16.0,83000,3579,1,False,0,2.0,4.0,Car,Coupe,Coupe,6,sound_system,"Sunroof, parking sensors., ",no
+6197116,BMW,1 SERIES,118I M SPORT,Silver,1995.0,Petrol,Manual,12.83,91000,2872,1,False,9,2.0,4.0,Car,Convertible,Convertible,4,heated_seats,None,partial
+3443394,Land Rover,RANGE ROVER,EVOQUE PRESTIGSD4A,White,2179.0,Diesel,Automatic,9.0,66300,10400,1,False,2,5.0,5.0,Car,Other,Other,1,"sat_nav, panoramic_roof, heated_seats, parking_cam",Immobilizer & Tracker.,partial
+6628258,Honda,CR-V,ES I VTEC,Grey,1997.0,Petrol,Automatic,12.42,104626,4574,1,False,11,5.0,5.0,Car,Other,Other,1,heated_seats,None,partial
+6599909,Jeep,RENEGADE,DAWN OF JUSTICE M JET,Black,1598.0,Diesel,Manual,7.17,97143,6220,1,True,0,5.0,5.0,Car,Other,Other,1,sat_nav,Parking sensors,partial
+6758475,Toyota,HILUX,INVINCIB X D 4D4WD DCB A,Grey,2755.0,Diesel,Automatic,1.75,12100,35993,1,True,0,5.0,5.0,LCV,Commercial vehicle,Pick-up,0,"sat_nav, heated_seats, parking_cam, sound_system","Mountain Top Shutter System, Tow Bar, ",no
+5898295,Land Rover,DISCOVERY,SPORT BLACK HSE TD4 A,White,1999.0,Diesel,Automatic,5.5,38492,19749,1,True,2,5.0,7.0,Car,Other,Other,2,"sat_nav, panoramic_roof, heated_seats, parking_cam, sound_system","- side steps.
+- window cover.
+- 7 seater.",partial
+6707535,Land Rover,RANGE ROVER,VELAR RDYN SE D MHEV,Black,1998.0,Diesel,Automatic,2.25,19641,41765,1,True,0,5.0,5.0,Car,Other,Other,0,"sat_nav, panoramic_roof, heated_seats, parking_cam",Black Pack,full
+6555620,Audi,Q3,S LINE TDI QUATTRO,Grey,1968.0,Diesel,Semi-automatic,7.33,68352,13054,1,True,3,5.0,5.0,Car,Other,Other,1,"sat_nav, panoramic_roof, parking_cam",tow bar.,partial
+6649425,Mercedes,CLA CLASS,CLA 180 AMG LINE,White,1595.0,Petrol,Manual,5.58,23586,16800,1,True,5,5.0,5.0,Car,Estate,Estate,1,"sat_nav, heated_seats, parking_cam",Apple Car Play.,full
+4887818,Kia,SPORTAGE,GT LINE S CRDI ISG SA,White,1598.0,Hybrid,Semi-automatic,2.75,54278,18800,1,False,3,5.0,5.0,Car,Other,Other,0,"sat_nav, panoramic_roof, heated_seats, parking_cam, sound_system","heated steering wheel , leather seats  , cooling seats , parking sensors ,folding camera ,front rear camera.",full
+6657249,Citroen,BERLINGO,650 EN PRISE BLUEHDI,White,1560.0,Diesel,Manual,4.17,19180,13140,1,False,4,5.0,3.0,LCV,Commercial vehicle,Panel van,2,,None,full
+6601135,Vauxhall,ASTRA,GTC SRI TURBO,White,1598.0,Petrol,Manual,10.92,62350,3428,1,False,10,3.0,5.0,Car,Coupe,Coupe,3,sat_nav,Front and Rear Parking Sensors.,full
+5106064,Vauxhall,MERIVA,SE CDTI AUTO,Blue,1686.0,Diesel,Automatic,11.58,22000,3338,1,False,0,5.0,5.0,Car,MPV,MPV,1,,None,partial
+6638012,Audi,A4,SE TECHNIK TDI QUATTRO,Silver,1968.0,Diesel,Automatic,8.25,79000,8234,1,False,4,4.0,5.0,Car,Saloon,Saloon,4,"heated_seats, sat_nav",None,partial
+6410694,Audi,A3,SE TFSI S A,Grey,1395.0,Petrol,Semi-automatic,9.25,59000,8977,1,False,0,5.0,5.0,Car,Hatchback,Hatchback,2,,None,full
+3972491,Toyota,COROLLA,GR SPORT HEV CVT,Silver,1987.0,Hybrid,CVT,0.33,11924,22678,1,False,1,5.0,5.0,Car,Hatchback,Hatchback,1,"sat_nav, heated_seats, parking_cam","Heads up display, Adaptive cruise control.",full
+6638997,Mercedes,C CLASS,C180 KOMPRESSOR SE BLUEEFF CY A,Black,1597.0,Petrol,Automatic,14.0,128000,2196,1,False,0,4.0,5.0,Car,Saloon,Saloon,2,,None,partial
