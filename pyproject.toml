@@ -44,6 +44,7 @@ tiktoken = "^0.4.0"
 python-dotenv = "^1.0.0"
 pandas = "^2.0.2"
 numpy = "^1.24.3"
+langchain = "^0.0.200"
 
 [tool.poetry.dev-dependencies]
 assertpy = "*"
