@@ -1,0 +1,3 @@
+[submodule "llm_experiments/gpt-engineer/repo/gpt-engineer"]
+	path = llm_experiments/gpt-engineer/repo/gpt-engineer
+	url = https://github.com/AntonOsika/gpt-engineer

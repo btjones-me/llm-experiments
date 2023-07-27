@@ -60,8 +60,7 @@ for i in range(0, len(grouped_df) - 1):
     if grouped_df.iloc[i]['sender'] == sender_name and grouped_df.iloc[i+1]['sender'] != sender_name:
         # Add the sender and recipient messages to the data list in the required format
         data.append({
-            'input_text': grouped_df.iloc[i]['message'],
-            'context': 'This is a conversation between two individuals in a committed relationship. The sender (the boyfriend) sends a message and the recipient (the girlfriend) responds. Sometimes the sender sends multiple messages in a row.',
+            'input_text': grouped_df.iloc[i]['message'] + ' context: This is a message from a boyfriend to his girlfriend. You are to respond to the message as the girlfriend. Some messages are grouped together.',
             'output_text': grouped_df.iloc[i + 1]['message'],
         })
 
