@@ -38,4 +38,6 @@ MANIFEST.in
 pip-wheel-metadata
 /poetry.toml
 
+# Custom
 .env
+motorway-genai-ccebd34bd403.json
