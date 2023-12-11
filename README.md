@@ -1,6 +1,5 @@
 # llm-experiments
 
-![Python Package](https://github.com/btjones-me/llm-experiments/workflows/Python%20package/badge.svg)
 
 Repo to house generative AI experiments using OpenAI's GPT model, GCP's PaLM model, and Langchain.
 
