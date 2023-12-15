@@ -1,0 +1,857 @@
+2023-10-06 00:36:20.726 | ERROR    | __main__:get_talk_data:38 - Failed to get talk data: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102ba665c chromedriver + 4318812
+1   chromedriver                        0x0000000102b9ed00 chromedriver + 4287744
+2   chromedriver                        0x00000001027d07ec chromedriver + 296940
+3   chromedriver                        0x000000010280e048 chromedriver + 548936
+4   chromedriver                        0x0000000102846d28 chromedriver + 781608
+5   chromedriver                        0x0000000102802178 chromedriver + 500088
+6   chromedriver                        0x0000000102802fc0 chromedriver + 503744
+7   chromedriver                        0x0000000102b66c40 chromedriver + 4058176
+8   chromedriver                        0x0000000102b6b160 chromedriver + 4075872
+9   chromedriver                        0x0000000102b2ee68 chromedriver + 3829352
+10  chromedriver                        0x0000000102b6bc4c chromedriver + 4078668
+11  chromedriver                        0x0000000102b43f08 chromedriver + 3915528
+12  chromedriver                        0x0000000102b88140 chromedriver + 4194624
+13  chromedriver                        0x0000000102b882c4 chromedriver + 4195012
+14  chromedriver                        0x0000000102b984d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+2023-10-06 00:40:19.809 | ERROR    | __main__:get_talk_data:56 - Failed to get talk data: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010052265c chromedriver + 4318812
+1   chromedriver                        0x000000010051ad00 chromedriver + 4287744
+2   chromedriver                        0x000000010014c7ec chromedriver + 296940
+3   chromedriver                        0x000000010018a048 chromedriver + 548936
+4   chromedriver                        0x00000001001c2d28 chromedriver + 781608
+5   chromedriver                        0x000000010017e178 chromedriver + 500088
+6   chromedriver                        0x000000010017efc0 chromedriver + 503744
+7   chromedriver                        0x00000001004e2c40 chromedriver + 4058176
+8   chromedriver                        0x00000001004e7160 chromedriver + 4075872
+9   chromedriver                        0x00000001004aae68 chromedriver + 3829352
+10  chromedriver                        0x00000001004e7c4c chromedriver + 4078668
+11  chromedriver                        0x00000001004bff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100504140 chromedriver + 4194624
+13  chromedriver                        0x00000001005042c4 chromedriver + 4195012
+14  chromedriver                        0x00000001005144d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+Traceback (most recent call last):
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 89, in <module>
+    scrape_aws_talks(url)
+    │                └ 'https://hub.reinvent.awsevents.com/attendee-portal/catalog/'
+    └ <function scrape_aws_talks at 0x11e036050>
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 78, in scrape_aws_talks
+    title, description = get_talk_data(button, driver)
+    │                    │             │       └ <selenium.webdriver.chrome.webdriver.WebDriver (session="a1246b4a224b4e8d8305cdba32ba01eb")>
+    │                    │             └ <selenium.webdriver.remote.webelement.WebElement (session="a1246b4a224b4e8d8305cdba32ba01eb", element="56010C32CF13499AA1FA70...
+    │                    └ <function get_talk_data at 0x11e035f30>
+    └ 'AIM403 | Build and train state-of-the-art FMs on Amazon SageMaker'
+
+> File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 34, in get_talk_data
+    title_element = wait.until(
+                    │    └ <function WebDriverWait.until at 0x11ddab400>
+                    └ <selenium.webdriver.support.wait.WebDriverWait (session="a1246b4a224b4e8d8305cdba32ba01eb")>
+
+  File "/Users/benjaminjones/repos/llm-experiments/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['0   chromedriver                        0x000000010052265c chromedriver + 4318812', '1   chromedriver                      ...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010052265c chromedriver + 4318812
+1   chromedriver                        0x000000010051ad00 chromedriver + 4287744
+2   chromedriver                        0x000000010014c7ec chromedriver + 296940
+3   chromedriver                        0x000000010018a048 chromedriver + 548936
+4   chromedriver                        0x00000001001c2d28 chromedriver + 781608
+5   chromedriver                        0x000000010017e178 chromedriver + 500088
+6   chromedriver                        0x000000010017efc0 chromedriver + 503744
+7   chromedriver                        0x00000001004e2c40 chromedriver + 4058176
+8   chromedriver                        0x00000001004e7160 chromedriver + 4075872
+9   chromedriver                        0x00000001004aae68 chromedriver + 3829352
+10  chromedriver                        0x00000001004e7c4c chromedriver + 4078668
+11  chromedriver                        0x00000001004bff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100504140 chromedriver + 4194624
+13  chromedriver                        0x00000001005042c4 chromedriver + 4195012
+14  chromedriver                        0x00000001005144d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+2023-10-06 00:40:27.929 | ERROR    | __main__:get_talk_data:56 - Failed to get talk data: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010052265c chromedriver + 4318812
+1   chromedriver                        0x000000010051ad00 chromedriver + 4287744
+2   chromedriver                        0x000000010014c7ec chromedriver + 296940
+3   chromedriver                        0x000000010018a048 chromedriver + 548936
+4   chromedriver                        0x00000001001c2d28 chromedriver + 781608
+5   chromedriver                        0x000000010017e178 chromedriver + 500088
+6   chromedriver                        0x000000010017efc0 chromedriver + 503744
+7   chromedriver                        0x00000001004e2c40 chromedriver + 4058176
+8   chromedriver                        0x00000001004e7160 chromedriver + 4075872
+9   chromedriver                        0x00000001004aae68 chromedriver + 3829352
+10  chromedriver                        0x00000001004e7c4c chromedriver + 4078668
+11  chromedriver                        0x00000001004bff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100504140 chromedriver + 4194624
+13  chromedriver                        0x00000001005042c4 chromedriver + 4195012
+14  chromedriver                        0x00000001005144d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+Traceback (most recent call last):
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 89, in <module>
+    scrape_aws_talks(url)
+    │                └ 'https://hub.reinvent.awsevents.com/attendee-portal/catalog/'
+    └ <function scrape_aws_talks at 0x11e036050>
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 78, in scrape_aws_talks
+    title, description = get_talk_data(button, driver)
+    │                    │             │       └ <selenium.webdriver.chrome.webdriver.WebDriver (session="a1246b4a224b4e8d8305cdba32ba01eb")>
+    │                    │             └ <selenium.webdriver.remote.webelement.WebElement (session="a1246b4a224b4e8d8305cdba32ba01eb", element="56010C32CF13499AA1FA70...
+    │                    └ <function get_talk_data at 0x11e035f30>
+    └ 'SEC102-S | The evolution of user logins (sponsored by FusionAuth)'
+
+> File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 34, in get_talk_data
+    title_element = wait.until(
+                    │    └ <function WebDriverWait.until at 0x11ddab400>
+                    └ <selenium.webdriver.support.wait.WebDriverWait (session="a1246b4a224b4e8d8305cdba32ba01eb")>
+
+  File "/Users/benjaminjones/repos/llm-experiments/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['0   chromedriver                        0x000000010052265c chromedriver + 4318812', '1   chromedriver                      ...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010052265c chromedriver + 4318812
+1   chromedriver                        0x000000010051ad00 chromedriver + 4287744
+2   chromedriver                        0x000000010014c7ec chromedriver + 296940
+3   chromedriver                        0x000000010018a048 chromedriver + 548936
+4   chromedriver                        0x00000001001c2d28 chromedriver + 781608
+5   chromedriver                        0x000000010017e178 chromedriver + 500088
+6   chromedriver                        0x000000010017efc0 chromedriver + 503744
+7   chromedriver                        0x00000001004e2c40 chromedriver + 4058176
+8   chromedriver                        0x00000001004e7160 chromedriver + 4075872
+9   chromedriver                        0x00000001004aae68 chromedriver + 3829352
+10  chromedriver                        0x00000001004e7c4c chromedriver + 4078668
+11  chromedriver                        0x00000001004bff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100504140 chromedriver + 4194624
+13  chromedriver                        0x00000001005042c4 chromedriver + 4195012
+14  chromedriver                        0x00000001005144d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+2023-10-06 00:40:36.015 | ERROR    | __main__:get_talk_data:56 - Failed to get talk data: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010052265c chromedriver + 4318812
+1   chromedriver                        0x000000010051ad00 chromedriver + 4287744
+2   chromedriver                        0x000000010014c7ec chromedriver + 296940
+3   chromedriver                        0x000000010018a048 chromedriver + 548936
+4   chromedriver                        0x00000001001c2d28 chromedriver + 781608
+5   chromedriver                        0x000000010017e178 chromedriver + 500088
+6   chromedriver                        0x000000010017efc0 chromedriver + 503744
+7   chromedriver                        0x00000001004e2c40 chromedriver + 4058176
+8   chromedriver                        0x00000001004e7160 chromedriver + 4075872
+9   chromedriver                        0x00000001004aae68 chromedriver + 3829352
+10  chromedriver                        0x00000001004e7c4c chromedriver + 4078668
+11  chromedriver                        0x00000001004bff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100504140 chromedriver + 4194624
+13  chromedriver                        0x00000001005042c4 chromedriver + 4195012
+14  chromedriver                        0x00000001005144d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+Traceback (most recent call last):
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 89, in <module>
+    scrape_aws_talks(url)
+    │                └ 'https://hub.reinvent.awsevents.com/attendee-portal/catalog/'
+    └ <function scrape_aws_talks at 0x11e036050>
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 78, in scrape_aws_talks
+    title, description = get_talk_data(button, driver)
+    │                    │             │       └ <selenium.webdriver.chrome.webdriver.WebDriver (session="a1246b4a224b4e8d8305cdba32ba01eb")>
+    │                    │             └ <selenium.webdriver.remote.webelement.WebElement (session="a1246b4a224b4e8d8305cdba32ba01eb", element="56010C32CF13499AA1FA70...
+    │                    └ <function get_talk_data at 0x11e035f30>
+    └ 'ENT105-S | The shortest path to Red Hat Enterprise Linux on AWS (sponsored by Red Hat)'
+
+> File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 34, in get_talk_data
+    title_element = wait.until(
+                    │    └ <function WebDriverWait.until at 0x11ddab400>
+                    └ <selenium.webdriver.support.wait.WebDriverWait (session="a1246b4a224b4e8d8305cdba32ba01eb")>
+
+  File "/Users/benjaminjones/repos/llm-experiments/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['0   chromedriver                        0x000000010052265c chromedriver + 4318812', '1   chromedriver                      ...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010052265c chromedriver + 4318812
+1   chromedriver                        0x000000010051ad00 chromedriver + 4287744
+2   chromedriver                        0x000000010014c7ec chromedriver + 296940
+3   chromedriver                        0x000000010018a048 chromedriver + 548936
+4   chromedriver                        0x00000001001c2d28 chromedriver + 781608
+5   chromedriver                        0x000000010017e178 chromedriver + 500088
+6   chromedriver                        0x000000010017efc0 chromedriver + 503744
+7   chromedriver                        0x00000001004e2c40 chromedriver + 4058176
+8   chromedriver                        0x00000001004e7160 chromedriver + 4075872
+9   chromedriver                        0x00000001004aae68 chromedriver + 3829352
+10  chromedriver                        0x00000001004e7c4c chromedriver + 4078668
+11  chromedriver                        0x00000001004bff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100504140 chromedriver + 4194624
+13  chromedriver                        0x00000001005042c4 chromedriver + 4195012
+14  chromedriver                        0x00000001005144d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+2023-10-06 00:40:44.095 | ERROR    | __main__:get_talk_data:56 - Failed to get talk data: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010052265c chromedriver + 4318812
+1   chromedriver                        0x000000010051ad00 chromedriver + 4287744
+2   chromedriver                        0x000000010014c7ec chromedriver + 296940
+3   chromedriver                        0x000000010018a048 chromedriver + 548936
+4   chromedriver                        0x00000001001c2d28 chromedriver + 781608
+5   chromedriver                        0x000000010017e178 chromedriver + 500088
+6   chromedriver                        0x000000010017efc0 chromedriver + 503744
+7   chromedriver                        0x00000001004e2c40 chromedriver + 4058176
+8   chromedriver                        0x00000001004e7160 chromedriver + 4075872
+9   chromedriver                        0x00000001004aae68 chromedriver + 3829352
+10  chromedriver                        0x00000001004e7c4c chromedriver + 4078668
+11  chromedriver                        0x00000001004bff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100504140 chromedriver + 4194624
+13  chromedriver                        0x00000001005042c4 chromedriver + 4195012
+14  chromedriver                        0x00000001005144d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+Traceback (most recent call last):
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 89, in <module>
+    scrape_aws_talks(url)
+    │                └ 'https://hub.reinvent.awsevents.com/attendee-portal/catalog/'
+    └ <function scrape_aws_talks at 0x11e036050>
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 78, in scrape_aws_talks
+    title, description = get_talk_data(button, driver)
+    │                    │             │       └ <selenium.webdriver.chrome.webdriver.WebDriver (session="a1246b4a224b4e8d8305cdba32ba01eb")>
+    │                    │             └ <selenium.webdriver.remote.webelement.WebElement (session="a1246b4a224b4e8d8305cdba32ba01eb", element="56010C32CF13499AA1FA70...
+    │                    └ <function get_talk_data at 0x11e035f30>
+    └ 'SMB207 | SMB financial services landscape: Top projects for impact'
+
+> File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 34, in get_talk_data
+    title_element = wait.until(
+                    │    └ <function WebDriverWait.until at 0x11ddab400>
+                    └ <selenium.webdriver.support.wait.WebDriverWait (session="a1246b4a224b4e8d8305cdba32ba01eb")>
+
+  File "/Users/benjaminjones/repos/llm-experiments/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['0   chromedriver                        0x000000010052265c chromedriver + 4318812', '1   chromedriver                      ...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010052265c chromedriver + 4318812
+1   chromedriver                        0x000000010051ad00 chromedriver + 4287744
+2   chromedriver                        0x000000010014c7ec chromedriver + 296940
+3   chromedriver                        0x000000010018a048 chromedriver + 548936
+4   chromedriver                        0x00000001001c2d28 chromedriver + 781608
+5   chromedriver                        0x000000010017e178 chromedriver + 500088
+6   chromedriver                        0x000000010017efc0 chromedriver + 503744
+7   chromedriver                        0x00000001004e2c40 chromedriver + 4058176
+8   chromedriver                        0x00000001004e7160 chromedriver + 4075872
+9   chromedriver                        0x00000001004aae68 chromedriver + 3829352
+10  chromedriver                        0x00000001004e7c4c chromedriver + 4078668
+11  chromedriver                        0x00000001004bff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100504140 chromedriver + 4194624
+13  chromedriver                        0x00000001005042c4 chromedriver + 4195012
+14  chromedriver                        0x00000001005144d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+2023-10-06 00:40:52.175 | ERROR    | __main__:get_talk_data:56 - Failed to get talk data: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010052265c chromedriver + 4318812
+1   chromedriver                        0x000000010051ad00 chromedriver + 4287744
+2   chromedriver                        0x000000010014c7ec chromedriver + 296940
+3   chromedriver                        0x000000010018a048 chromedriver + 548936
+4   chromedriver                        0x00000001001c2d28 chromedriver + 781608
+5   chromedriver                        0x000000010017e178 chromedriver + 500088
+6   chromedriver                        0x000000010017efc0 chromedriver + 503744
+7   chromedriver                        0x00000001004e2c40 chromedriver + 4058176
+8   chromedriver                        0x00000001004e7160 chromedriver + 4075872
+9   chromedriver                        0x00000001004aae68 chromedriver + 3829352
+10  chromedriver                        0x00000001004e7c4c chromedriver + 4078668
+11  chromedriver                        0x00000001004bff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100504140 chromedriver + 4194624
+13  chromedriver                        0x00000001005042c4 chromedriver + 4195012
+14  chromedriver                        0x00000001005144d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+Traceback (most recent call last):
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 89, in <module>
+    scrape_aws_talks(url)
+    │                └ 'https://hub.reinvent.awsevents.com/attendee-portal/catalog/'
+    └ <function scrape_aws_talks at 0x11e036050>
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 78, in scrape_aws_talks
+    title, description = get_talk_data(button, driver)
+    │                    │             │       └ <selenium.webdriver.chrome.webdriver.WebDriver (session="a1246b4a224b4e8d8305cdba32ba01eb")>
+    │                    │             └ <selenium.webdriver.remote.webelement.WebElement (session="a1246b4a224b4e8d8305cdba32ba01eb", element="56010C32CF13499AA1FA70...
+    │                    └ <function get_talk_data at 0x11e035f30>
+    └ 'STG317-R1 | Configuring Amazon S3 security settings and access controls [REPEAT]'
+
+> File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 34, in get_talk_data
+    title_element = wait.until(
+                    │    └ <function WebDriverWait.until at 0x11ddab400>
+                    └ <selenium.webdriver.support.wait.WebDriverWait (session="a1246b4a224b4e8d8305cdba32ba01eb")>
+
+  File "/Users/benjaminjones/repos/llm-experiments/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['0   chromedriver                        0x000000010052265c chromedriver + 4318812', '1   chromedriver                      ...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010052265c chromedriver + 4318812
+1   chromedriver                        0x000000010051ad00 chromedriver + 4287744
+2   chromedriver                        0x000000010014c7ec chromedriver + 296940
+3   chromedriver                        0x000000010018a048 chromedriver + 548936
+4   chromedriver                        0x00000001001c2d28 chromedriver + 781608
+5   chromedriver                        0x000000010017e178 chromedriver + 500088
+6   chromedriver                        0x000000010017efc0 chromedriver + 503744
+7   chromedriver                        0x00000001004e2c40 chromedriver + 4058176
+8   chromedriver                        0x00000001004e7160 chromedriver + 4075872
+9   chromedriver                        0x00000001004aae68 chromedriver + 3829352
+10  chromedriver                        0x00000001004e7c4c chromedriver + 4078668
+11  chromedriver                        0x00000001004bff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100504140 chromedriver + 4194624
+13  chromedriver                        0x00000001005042c4 chromedriver + 4195012
+14  chromedriver                        0x00000001005144d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+2023-10-06 00:41:00.279 | ERROR    | __main__:get_talk_data:56 - Failed to get talk data: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010052265c chromedriver + 4318812
+1   chromedriver                        0x000000010051ad00 chromedriver + 4287744
+2   chromedriver                        0x000000010014c7ec chromedriver + 296940
+3   chromedriver                        0x000000010018a048 chromedriver + 548936
+4   chromedriver                        0x00000001001c2d28 chromedriver + 781608
+5   chromedriver                        0x000000010017e178 chromedriver + 500088
+6   chromedriver                        0x000000010017efc0 chromedriver + 503744
+7   chromedriver                        0x00000001004e2c40 chromedriver + 4058176
+8   chromedriver                        0x00000001004e7160 chromedriver + 4075872
+9   chromedriver                        0x00000001004aae68 chromedriver + 3829352
+10  chromedriver                        0x00000001004e7c4c chromedriver + 4078668
+11  chromedriver                        0x00000001004bff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100504140 chromedriver + 4194624
+13  chromedriver                        0x00000001005042c4 chromedriver + 4195012
+14  chromedriver                        0x00000001005144d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+Traceback (most recent call last):
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 89, in <module>
+    scrape_aws_talks(url)
+    │                └ 'https://hub.reinvent.awsevents.com/attendee-portal/catalog/'
+    └ <function scrape_aws_talks at 0x11e036050>
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 78, in scrape_aws_talks
+    title, description = get_talk_data(button, driver)
+    │                    │             │       └ <selenium.webdriver.chrome.webdriver.WebDriver (session="a1246b4a224b4e8d8305cdba32ba01eb")>
+    │                    │             └ <selenium.webdriver.remote.webelement.WebElement (session="a1246b4a224b4e8d8305cdba32ba01eb", element="56010C32CF13499AA1FA70...
+    │                    └ <function get_talk_data at 0x11e035f30>
+    └ 'COP217-S | FinOps and GreenOps successes on AWS: A customer story (sponsored by Xebia)'
+
+> File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 34, in get_talk_data
+    title_element = wait.until(
+                    │    └ <function WebDriverWait.until at 0x11ddab400>
+                    └ <selenium.webdriver.support.wait.WebDriverWait (session="a1246b4a224b4e8d8305cdba32ba01eb")>
+
+  File "/Users/benjaminjones/repos/llm-experiments/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['0   chromedriver                        0x000000010052265c chromedriver + 4318812', '1   chromedriver                      ...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010052265c chromedriver + 4318812
+1   chromedriver                        0x000000010051ad00 chromedriver + 4287744
+2   chromedriver                        0x000000010014c7ec chromedriver + 296940
+3   chromedriver                        0x000000010018a048 chromedriver + 548936
+4   chromedriver                        0x00000001001c2d28 chromedriver + 781608
+5   chromedriver                        0x000000010017e178 chromedriver + 500088
+6   chromedriver                        0x000000010017efc0 chromedriver + 503744
+7   chromedriver                        0x00000001004e2c40 chromedriver + 4058176
+8   chromedriver                        0x00000001004e7160 chromedriver + 4075872
+9   chromedriver                        0x00000001004aae68 chromedriver + 3829352
+10  chromedriver                        0x00000001004e7c4c chromedriver + 4078668
+11  chromedriver                        0x00000001004bff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100504140 chromedriver + 4194624
+13  chromedriver                        0x00000001005042c4 chromedriver + 4195012
+14  chromedriver                        0x00000001005144d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+2023-10-06 00:41:08.328 | ERROR    | __main__:get_talk_data:56 - Failed to get talk data: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010052265c chromedriver + 4318812
+1   chromedriver                        0x000000010051ad00 chromedriver + 4287744
+2   chromedriver                        0x000000010014c7ec chromedriver + 296940
+3   chromedriver                        0x000000010018a048 chromedriver + 548936
+4   chromedriver                        0x00000001001c2d28 chromedriver + 781608
+5   chromedriver                        0x000000010017e178 chromedriver + 500088
+6   chromedriver                        0x000000010017efc0 chromedriver + 503744
+7   chromedriver                        0x00000001004e2c40 chromedriver + 4058176
+8   chromedriver                        0x00000001004e7160 chromedriver + 4075872
+9   chromedriver                        0x00000001004aae68 chromedriver + 3829352
+10  chromedriver                        0x00000001004e7c4c chromedriver + 4078668
+11  chromedriver                        0x00000001004bff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100504140 chromedriver + 4194624
+13  chromedriver                        0x00000001005042c4 chromedriver + 4195012
+14  chromedriver                        0x00000001005144d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+Traceback (most recent call last):
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 89, in <module>
+    scrape_aws_talks(url)
+    │                └ 'https://hub.reinvent.awsevents.com/attendee-portal/catalog/'
+    └ <function scrape_aws_talks at 0x11e036050>
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 78, in scrape_aws_talks
+    title, description = get_talk_data(button, driver)
+    │                    │             │       └ <selenium.webdriver.chrome.webdriver.WebDriver (session="a1246b4a224b4e8d8305cdba32ba01eb")>
+    │                    │             └ <selenium.webdriver.remote.webelement.WebElement (session="a1246b4a224b4e8d8305cdba32ba01eb", element="56010C32CF13499AA1FA70...
+    │                    └ <function get_talk_data at 0x11e035f30>
+    └ 'BIZ301 | Amazon Chime SDK ML-based call analytics'
+
+> File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 34, in get_talk_data
+    title_element = wait.until(
+                    │    └ <function WebDriverWait.until at 0x11ddab400>
+                    └ <selenium.webdriver.support.wait.WebDriverWait (session="a1246b4a224b4e8d8305cdba32ba01eb")>
+
+  File "/Users/benjaminjones/repos/llm-experiments/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['0   chromedriver                        0x000000010052265c chromedriver + 4318812', '1   chromedriver                      ...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010052265c chromedriver + 4318812
+1   chromedriver                        0x000000010051ad00 chromedriver + 4287744
+2   chromedriver                        0x000000010014c7ec chromedriver + 296940
+3   chromedriver                        0x000000010018a048 chromedriver + 548936
+4   chromedriver                        0x00000001001c2d28 chromedriver + 781608
+5   chromedriver                        0x000000010017e178 chromedriver + 500088
+6   chromedriver                        0x000000010017efc0 chromedriver + 503744
+7   chromedriver                        0x00000001004e2c40 chromedriver + 4058176
+8   chromedriver                        0x00000001004e7160 chromedriver + 4075872
+9   chromedriver                        0x00000001004aae68 chromedriver + 3829352
+10  chromedriver                        0x00000001004e7c4c chromedriver + 4078668
+11  chromedriver                        0x00000001004bff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100504140 chromedriver + 4194624
+13  chromedriver                        0x00000001005042c4 chromedriver + 4195012
+14  chromedriver                        0x00000001005144d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+2023-10-06 00:41:16.475 | ERROR    | __main__:get_talk_data:56 - Failed to get talk data: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010052265c chromedriver + 4318812
+1   chromedriver                        0x000000010051ad00 chromedriver + 4287744
+2   chromedriver                        0x000000010014c7ec chromedriver + 296940
+3   chromedriver                        0x000000010018a048 chromedriver + 548936
+4   chromedriver                        0x00000001001c2d28 chromedriver + 781608
+5   chromedriver                        0x000000010017e178 chromedriver + 500088
+6   chromedriver                        0x000000010017efc0 chromedriver + 503744
+7   chromedriver                        0x00000001004e2c40 chromedriver + 4058176
+8   chromedriver                        0x00000001004e7160 chromedriver + 4075872
+9   chromedriver                        0x00000001004aae68 chromedriver + 3829352
+10  chromedriver                        0x00000001004e7c4c chromedriver + 4078668
+11  chromedriver                        0x00000001004bff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100504140 chromedriver + 4194624
+13  chromedriver                        0x00000001005042c4 chromedriver + 4195012
+14  chromedriver                        0x00000001005144d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+Traceback (most recent call last):
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 89, in <module>
+    scrape_aws_talks(url)
+    │                └ 'https://hub.reinvent.awsevents.com/attendee-portal/catalog/'
+    └ <function scrape_aws_talks at 0x11e036050>
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 78, in scrape_aws_talks
+    title, description = get_talk_data(button, driver)
+    │                    │             │       └ <selenium.webdriver.chrome.webdriver.WebDriver (session="a1246b4a224b4e8d8305cdba32ba01eb")>
+    │                    │             └ <selenium.webdriver.remote.webelement.WebElement (session="a1246b4a224b4e8d8305cdba32ba01eb", element="56010C32CF13499AA1FA70...
+    │                    └ <function get_talk_data at 0x11e035f30>
+    └ 'DAT102-S | Postgres for the modern enterprise (sponsored by EDB)'
+
+> File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 34, in get_talk_data
+    title_element = wait.until(
+                    │    └ <function WebDriverWait.until at 0x11ddab400>
+                    └ <selenium.webdriver.support.wait.WebDriverWait (session="a1246b4a224b4e8d8305cdba32ba01eb")>
+
+  File "/Users/benjaminjones/repos/llm-experiments/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['0   chromedriver                        0x000000010052265c chromedriver + 4318812', '1   chromedriver                      ...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010052265c chromedriver + 4318812
+1   chromedriver                        0x000000010051ad00 chromedriver + 4287744
+2   chromedriver                        0x000000010014c7ec chromedriver + 296940
+3   chromedriver                        0x000000010018a048 chromedriver + 548936
+4   chromedriver                        0x00000001001c2d28 chromedriver + 781608
+5   chromedriver                        0x000000010017e178 chromedriver + 500088
+6   chromedriver                        0x000000010017efc0 chromedriver + 503744
+7   chromedriver                        0x00000001004e2c40 chromedriver + 4058176
+8   chromedriver                        0x00000001004e7160 chromedriver + 4075872
+9   chromedriver                        0x00000001004aae68 chromedriver + 3829352
+10  chromedriver                        0x00000001004e7c4c chromedriver + 4078668
+11  chromedriver                        0x00000001004bff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100504140 chromedriver + 4194624
+13  chromedriver                        0x00000001005042c4 chromedriver + 4195012
+14  chromedriver                        0x00000001005144d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+2023-10-06 00:46:13.592 | ERROR    | __main__:get_talk_data:62 - Failed to get talk data: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100e6265c chromedriver + 4318812
+1   chromedriver                        0x0000000100e5ad00 chromedriver + 4287744
+2   chromedriver                        0x0000000100a8c7ec chromedriver + 296940
+3   chromedriver                        0x0000000100aca048 chromedriver + 548936
+4   chromedriver                        0x0000000100b02d28 chromedriver + 781608
+5   chromedriver                        0x0000000100abe178 chromedriver + 500088
+6   chromedriver                        0x0000000100abefc0 chromedriver + 503744
+7   chromedriver                        0x0000000100e22c40 chromedriver + 4058176
+8   chromedriver                        0x0000000100e27160 chromedriver + 4075872
+9   chromedriver                        0x0000000100deae68 chromedriver + 3829352
+10  chromedriver                        0x0000000100e27c4c chromedriver + 4078668
+11  chromedriver                        0x0000000100dfff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100e44140 chromedriver + 4194624
+13  chromedriver                        0x0000000100e442c4 chromedriver + 4195012
+14  chromedriver                        0x0000000100e544d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+Traceback (most recent call last):
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 97, in <module>
+    for ix in range(3):  # Retry logic
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 86, in scrape_aws_talks
+    driver.get(url)
+    │      │   └ 'https://hub.reinvent.awsevents.com/attendee-portal/catalog/'
+    │      └ <function WebDriver.get at 0x123a1fac0>
+    └ <selenium.webdriver.chrome.webdriver.WebDriver (session="4b17d8f4efcda724aec0ae9b007b160d")>
+
+> File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 39, in get_talk_data
+    title_element = wait.until(
+                    │    └ <function WebDriverWait.until at 0x123aaf490>
+                    └ <selenium.webdriver.support.wait.WebDriverWait (session="4b17d8f4efcda724aec0ae9b007b160d")>
+
+  File "/Users/benjaminjones/repos/llm-experiments/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['0   chromedriver                        0x0000000100e6265c chromedriver + 4318812', '1   chromedriver                      ...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100e6265c chromedriver + 4318812
+1   chromedriver                        0x0000000100e5ad00 chromedriver + 4287744
+2   chromedriver                        0x0000000100a8c7ec chromedriver + 296940
+3   chromedriver                        0x0000000100aca048 chromedriver + 548936
+4   chromedriver                        0x0000000100b02d28 chromedriver + 781608
+5   chromedriver                        0x0000000100abe178 chromedriver + 500088
+6   chromedriver                        0x0000000100abefc0 chromedriver + 503744
+7   chromedriver                        0x0000000100e22c40 chromedriver + 4058176
+8   chromedriver                        0x0000000100e27160 chromedriver + 4075872
+9   chromedriver                        0x0000000100deae68 chromedriver + 3829352
+10  chromedriver                        0x0000000100e27c4c chromedriver + 4078668
+11  chromedriver                        0x0000000100dfff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100e44140 chromedriver + 4194624
+13  chromedriver                        0x0000000100e442c4 chromedriver + 4195012
+14  chromedriver                        0x0000000100e544d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+2023-10-06 00:46:21.483 | ERROR    | __main__:get_talk_data:62 - Failed to get talk data: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100e6265c chromedriver + 4318812
+1   chromedriver                        0x0000000100e5ad00 chromedriver + 4287744
+2   chromedriver                        0x0000000100a8c7ec chromedriver + 296940
+3   chromedriver                        0x0000000100aca048 chromedriver + 548936
+4   chromedriver                        0x0000000100b02d28 chromedriver + 781608
+5   chromedriver                        0x0000000100abe178 chromedriver + 500088
+6   chromedriver                        0x0000000100abefc0 chromedriver + 503744
+7   chromedriver                        0x0000000100e22c40 chromedriver + 4058176
+8   chromedriver                        0x0000000100e27160 chromedriver + 4075872
+9   chromedriver                        0x0000000100deae68 chromedriver + 3829352
+10  chromedriver                        0x0000000100e27c4c chromedriver + 4078668
+11  chromedriver                        0x0000000100dfff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100e44140 chromedriver + 4194624
+13  chromedriver                        0x0000000100e442c4 chromedriver + 4195012
+14  chromedriver                        0x0000000100e544d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+Traceback (most recent call last):
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 97, in <module>
+    for ix in range(3):  # Retry logic
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 86, in scrape_aws_talks
+    driver.get(url)
+    │      │   └ 'https://hub.reinvent.awsevents.com/attendee-portal/catalog/'
+    │      └ <function WebDriver.get at 0x123a1fac0>
+    └ <selenium.webdriver.chrome.webdriver.WebDriver (session="4b17d8f4efcda724aec0ae9b007b160d")>
+
+> File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 39, in get_talk_data
+    title_element = wait.until(
+                    │    └ <function WebDriverWait.until at 0x123aaf490>
+                    └ <selenium.webdriver.support.wait.WebDriverWait (session="4b17d8f4efcda724aec0ae9b007b160d")>
+
+  File "/Users/benjaminjones/repos/llm-experiments/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['0   chromedriver                        0x0000000100e6265c chromedriver + 4318812', '1   chromedriver                      ...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100e6265c chromedriver + 4318812
+1   chromedriver                        0x0000000100e5ad00 chromedriver + 4287744
+2   chromedriver                        0x0000000100a8c7ec chromedriver + 296940
+3   chromedriver                        0x0000000100aca048 chromedriver + 548936
+4   chromedriver                        0x0000000100b02d28 chromedriver + 781608
+5   chromedriver                        0x0000000100abe178 chromedriver + 500088
+6   chromedriver                        0x0000000100abefc0 chromedriver + 503744
+7   chromedriver                        0x0000000100e22c40 chromedriver + 4058176
+8   chromedriver                        0x0000000100e27160 chromedriver + 4075872
+9   chromedriver                        0x0000000100deae68 chromedriver + 3829352
+10  chromedriver                        0x0000000100e27c4c chromedriver + 4078668
+11  chromedriver                        0x0000000100dfff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100e44140 chromedriver + 4194624
+13  chromedriver                        0x0000000100e442c4 chromedriver + 4195012
+14  chromedriver                        0x0000000100e544d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+2023-10-06 00:46:29.578 | ERROR    | __main__:get_talk_data:62 - Failed to get talk data: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100e6265c chromedriver + 4318812
+1   chromedriver                        0x0000000100e5ad00 chromedriver + 4287744
+2   chromedriver                        0x0000000100a8c7ec chromedriver + 296940
+3   chromedriver                        0x0000000100aca048 chromedriver + 548936
+4   chromedriver                        0x0000000100b02d28 chromedriver + 781608
+5   chromedriver                        0x0000000100abe178 chromedriver + 500088
+6   chromedriver                        0x0000000100abefc0 chromedriver + 503744
+7   chromedriver                        0x0000000100e22c40 chromedriver + 4058176
+8   chromedriver                        0x0000000100e27160 chromedriver + 4075872
+9   chromedriver                        0x0000000100deae68 chromedriver + 3829352
+10  chromedriver                        0x0000000100e27c4c chromedriver + 4078668
+11  chromedriver                        0x0000000100dfff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100e44140 chromedriver + 4194624
+13  chromedriver                        0x0000000100e442c4 chromedriver + 4195012
+14  chromedriver                        0x0000000100e544d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+Traceback (most recent call last):
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 97, in <module>
+    for ix in range(3):  # Retry logic
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 86, in scrape_aws_talks
+    driver.get(url)
+    │      │   └ 'https://hub.reinvent.awsevents.com/attendee-portal/catalog/'
+    │      └ <function WebDriver.get at 0x123a1fac0>
+    └ <selenium.webdriver.chrome.webdriver.WebDriver (session="4b17d8f4efcda724aec0ae9b007b160d")>
+
+> File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 39, in get_talk_data
+    title_element = wait.until(
+                    │    └ <function WebDriverWait.until at 0x123aaf490>
+                    └ <selenium.webdriver.support.wait.WebDriverWait (session="4b17d8f4efcda724aec0ae9b007b160d")>
+
+  File "/Users/benjaminjones/repos/llm-experiments/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['0   chromedriver                        0x0000000100e6265c chromedriver + 4318812', '1   chromedriver                      ...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100e6265c chromedriver + 4318812
+1   chromedriver                        0x0000000100e5ad00 chromedriver + 4287744
+2   chromedriver                        0x0000000100a8c7ec chromedriver + 296940
+3   chromedriver                        0x0000000100aca048 chromedriver + 548936
+4   chromedriver                        0x0000000100b02d28 chromedriver + 781608
+5   chromedriver                        0x0000000100abe178 chromedriver + 500088
+6   chromedriver                        0x0000000100abefc0 chromedriver + 503744
+7   chromedriver                        0x0000000100e22c40 chromedriver + 4058176
+8   chromedriver                        0x0000000100e27160 chromedriver + 4075872
+9   chromedriver                        0x0000000100deae68 chromedriver + 3829352
+10  chromedriver                        0x0000000100e27c4c chromedriver + 4078668
+11  chromedriver                        0x0000000100dfff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100e44140 chromedriver + 4194624
+13  chromedriver                        0x0000000100e442c4 chromedriver + 4195012
+14  chromedriver                        0x0000000100e544d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+2023-10-06 00:46:37.673 | ERROR    | __main__:get_talk_data:62 - Failed to get talk data: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100e6265c chromedriver + 4318812
+1   chromedriver                        0x0000000100e5ad00 chromedriver + 4287744
+2   chromedriver                        0x0000000100a8c7ec chromedriver + 296940
+3   chromedriver                        0x0000000100aca048 chromedriver + 548936
+4   chromedriver                        0x0000000100b02d28 chromedriver + 781608
+5   chromedriver                        0x0000000100abe178 chromedriver + 500088
+6   chromedriver                        0x0000000100abefc0 chromedriver + 503744
+7   chromedriver                        0x0000000100e22c40 chromedriver + 4058176
+8   chromedriver                        0x0000000100e27160 chromedriver + 4075872
+9   chromedriver                        0x0000000100deae68 chromedriver + 3829352
+10  chromedriver                        0x0000000100e27c4c chromedriver + 4078668
+11  chromedriver                        0x0000000100dfff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100e44140 chromedriver + 4194624
+13  chromedriver                        0x0000000100e442c4 chromedriver + 4195012
+14  chromedriver                        0x0000000100e544d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+Traceback (most recent call last):
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 97, in <module>
+    for ix in range(3):  # Retry logic
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 86, in scrape_aws_talks
+    driver.get(url)
+    │      │   └ 'https://hub.reinvent.awsevents.com/attendee-portal/catalog/'
+    │      └ <function WebDriver.get at 0x123a1fac0>
+    └ <selenium.webdriver.chrome.webdriver.WebDriver (session="4b17d8f4efcda724aec0ae9b007b160d")>
+
+> File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 39, in get_talk_data
+    title_element = wait.until(
+                    │    └ <function WebDriverWait.until at 0x123aaf490>
+                    └ <selenium.webdriver.support.wait.WebDriverWait (session="4b17d8f4efcda724aec0ae9b007b160d")>
+
+  File "/Users/benjaminjones/repos/llm-experiments/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ ['0   chromedriver                        0x0000000100e6265c chromedriver + 4318812', '1   chromedriver                      ...
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000100e6265c chromedriver + 4318812
+1   chromedriver                        0x0000000100e5ad00 chromedriver + 4287744
+2   chromedriver                        0x0000000100a8c7ec chromedriver + 296940
+3   chromedriver                        0x0000000100aca048 chromedriver + 548936
+4   chromedriver                        0x0000000100b02d28 chromedriver + 781608
+5   chromedriver                        0x0000000100abe178 chromedriver + 500088
+6   chromedriver                        0x0000000100abefc0 chromedriver + 503744
+7   chromedriver                        0x0000000100e22c40 chromedriver + 4058176
+8   chromedriver                        0x0000000100e27160 chromedriver + 4075872
+9   chromedriver                        0x0000000100deae68 chromedriver + 3829352
+10  chromedriver                        0x0000000100e27c4c chromedriver + 4078668
+11  chromedriver                        0x0000000100dfff08 chromedriver + 3915528
+12  chromedriver                        0x0000000100e44140 chromedriver + 4194624
+13  chromedriver                        0x0000000100e442c4 chromedriver + 4195012
+14  chromedriver                        0x0000000100e544d0 chromedriver + 4261072
+15  libsystem_pthread.dylib             0x000000019c15ffa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x000000019c15ada0 thread_start + 8
+
+2023-10-06 00:46:44.129 | ERROR    | __main__:get_talk_data:62 - Failed to get talk data: Message: 
+
+Traceback (most recent call last):
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 97, in <module>
+    for ix in range(3):  # Retry logic
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 86, in scrape_aws_talks
+    driver.get(url)
+    │      │   └ 'https://hub.reinvent.awsevents.com/attendee-portal/catalog/'
+    │      └ <function WebDriver.get at 0x123a1fac0>
+    └ <selenium.webdriver.chrome.webdriver.WebDriver (session="4b17d8f4efcda724aec0ae9b007b160d")>
+
+> File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 54, in get_talk_data
+    By.CSS_SELECTOR,
+    │  └ 'css selector'
+    └ <class 'selenium.webdriver.common.by.By'>
+
+  File "/Users/benjaminjones/repos/llm-experiments/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ None
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+
+2023-10-06 00:53:29.139 | ERROR    | __main__:get_talk_data:75 - Failed to get talk data: Message: 
+
+Traceback (most recent call last):
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 112, in <module>
+    scrape_aws_talks(url)
+    │                └ 'https://hub.reinvent.awsevents.com/attendee-portal/catalog/'
+    └ <function scrape_aws_talks at 0x12ad32170>
+
+  File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 101, in scrape_aws_talks
+    title, description = get_talk_data(button, driver)
+    │                    │             │       └ <selenium.webdriver.chrome.webdriver.WebDriver (session="9f8f08a78e037376eb4d0d1d1b2379b6")>
+    │                    │             └ <selenium.webdriver.remote.webelement.WebElement (session="9f8f08a78e037376eb4d0d1d1b2379b6", element="78D17E1D0B3ADB852096CD...
+    │                    └ <function get_talk_data at 0x12ad32050>
+    └ 'ROB306 | Build a cloud- and AI-powered dancing robot'
+
+> File "/Users/benjaminjones/repos/llm-experiments/llm_experiments/aws-reinvent.py", line 66, in get_talk_data
+    close_button = wait.until(
+                   │    └ <function WebDriverWait.until at 0x12aba7520>
+                   └ <selenium.webdriver.support.wait.WebDriverWait (session="9f8f08a78e037376eb4d0d1d1b2379b6")>
+
+  File "/Users/benjaminjones/repos/llm-experiments/.venv/lib/python3.10/site-packages/selenium/webdriver/support/wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+          │                │        │       └ None
+          │                │        └ None
+          │                └ ''
+          └ <class 'selenium.common.exceptions.TimeoutException'>
+
+selenium.common.exceptions.TimeoutException: Message: 
+
