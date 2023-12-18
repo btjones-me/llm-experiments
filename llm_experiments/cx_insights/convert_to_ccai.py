@@ -18,7 +18,7 @@ all_conversations = []
 
 # Group by interaction_id
 grouped = df_calls.groupby("interaction_id")
-
+i = 0
 for interaction_id, group in grouped:
     # Initialize conversation data structure for each interaction_id
     conversation_data = {
@@ -43,7 +43,7 @@ for interaction_id, group in grouped:
     for index, row in group.iterrows():
         # set the user id based on the message participant
         user_id = (
-            row["enquiry_id"]
+            11111111  # redacted
             if row["message_participant"] == "CUSTOMER"
             else 99999999  # 99999999 is the designated user id for the agent
         )
@@ -51,7 +51,7 @@ for interaction_id, group in grouped:
         entry = {
             "text": row["message_text"],
             "role": row["message_participant"],
-            "user_id": str(user_id),
+            "user_id": user_id,
             "start_timestamp_usec": timestamp,
         }
         conversation_data["entries"].append(entry)
@@ -59,9 +59,13 @@ for interaction_id, group in grouped:
     # Add the conversation to the list
     all_conversations.append(conversation_data)
 
+    i += 1
+    if i > 3:
+        break
+
 # Convert list of conversations to JSON string
 json_data = json.dumps(all_conversations, indent=2)
 
 # Write JSON data to a file
-with open(here() / "data/insights/outs" / "conversation_data.json", "w") as file:
+with open(here() / "data/insights/outs" / "conversation_data_4.json", "w") as file:
     file.write(json_data)

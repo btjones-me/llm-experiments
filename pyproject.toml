@@ -57,6 +57,8 @@ selenium = "^4.13.0"
 loguru = "^0.7.2"
 modin = "^0.25.1"
 ray = "^2.8.1"
+google-cloud-speech = "^2.23.0"
+pydub = "^0.25.1"
 
 [tool.poetry.dev-dependencies]
 assertpy = "*"
