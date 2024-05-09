@@ -4,8 +4,6 @@ import re
 import pandas as pd
 
 
-
-
 def clean_data(df):
     # Sort the DataFrame by 'conversation_id' and 'created_at'
     df = df.sort_values(['conversation_id', 'created_at'])

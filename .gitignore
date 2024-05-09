@@ -41,3 +41,4 @@ pip-wheel-metadata
 # Custom
 .env
 motorway-genai-ccebd34bd403.json
+data/*

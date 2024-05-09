@@ -1,3 +1,6 @@
+"""Takes audio files from interviews, converts them to single channel audio and then runs through Google's
+Transcription API."""
+
 from google.cloud import speech
 from pydub import AudioSegment
 from pathlib import Path

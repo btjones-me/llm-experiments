@@ -59,6 +59,10 @@ modin = "^0.25.1"
 ray = "^2.8.1"
 google-cloud-speech = "^2.23.0"
 pydub = "^0.25.1"
+plotly = "^5.21.0"
+websockets = "^12.0"
+streamlit-plotly-events = "^0.0.6"
+bigframes = "^1.2.0"
 
 [tool.poetry.dev-dependencies]
 assertpy = "*"

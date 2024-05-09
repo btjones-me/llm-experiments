@@ -1,8 +1,9 @@
 import os
 import time
+
+import pandas as pd
 import vertexai
 from vertexai.language_models import TextGenerationModel
-import pandas as pd
 
 from llm_experiments.utils import here
 

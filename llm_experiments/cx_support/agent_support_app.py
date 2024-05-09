@@ -1,17 +1,16 @@
-import streamlit as st
 import os
-
 # Utils
 import time
 from typing import List
 
 # Langchain
 import langchain
+import streamlit as st
+# Vertex AI
+from langchain.llms import VertexAI
 from pydantic import BaseModel
 from vertexai.language_models import TextGenerationModel
 
-# Vertex AI
-from langchain.llms import VertexAI
 from llm_experiments.utils import here
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = str(here() / 'motorway-genai-ccebd34bd403.json')
