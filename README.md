@@ -1,7 +1,7 @@
 # llm-experiments
 
 
-Repo to house generative AI experiments using OpenAI's GPT model, GCP's PaLM model, Langchain and more.
+Repo to house generative AI experiments using OpenAI's GPT model, GCP's PaLM model, Langchain and more. 
 
 
 # Getting started
