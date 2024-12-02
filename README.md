@@ -50,10 +50,6 @@ make .venv
 ```
 
 
-# Features
-
-* TODO
-
 # Credits
 
 This package was created with Cookiecutter and the `my org/ML_CookiecutterPyPackage` project template.
