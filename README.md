@@ -3,6 +3,8 @@
 
 Repo to house generative AI experiments using OpenAI's GPT model, GCP's PaLM model, Langchain and more. 
 
+! Note: this is essentially a dumping ground of scratch files - not production standard code! 
+
 
 # Getting started
 
